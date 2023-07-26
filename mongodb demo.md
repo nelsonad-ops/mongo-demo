@@ -42,6 +42,8 @@ python3 mongodb.py<br>
 <br>
 *Validate data available*<br>
 mongosh "mongodb://your.ip.address.here:32000"<br>
+-or-
+mongosh "mongodb://192.168.101.101:32000/?readPreference=secondary"<br>
 show dbs<br>
 use company<br>
 show collections<br>
