@@ -30,6 +30,7 @@ kubectl apply -f k8s-setup/ -n mongo<br>
 <br>
 *Validate MongoDB is up and running*<br>
 kubectl exec -it mongodb-replica-0 -n mongo -- mongo<br>
+rs.initiate()<br>
 <br>
 *Validate with local mongo shell*<br>
 mongosh "mongodb://your.ip.address.here:32000"<br>
