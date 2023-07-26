@@ -12,7 +12,6 @@ if __name__ == "__main__":
     collection = db["employees"]
     collection.insert_many(data_dict)
 
-[root@master-1 mongodb-demo]# cat modules/base.py
 from pymongo import MongoClient
 
 uri = "mongodb://192.168.101.101:32000/?directConnection=true"
