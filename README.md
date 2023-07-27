@@ -28,7 +28,7 @@ kubectl create ns mongo<br>
 kubectl apply -f k8s-setup/ -n mongo<br>
 <br>
 *Validate MongoDB is up and running*<br>
-kubectl get pods -n mongo -o wide
+kubectl get pods -n mongo -o wide<br>
 kubectl exec -it mongodb-replica-0 -n mongo -- mongo<br>
 <p>rs.initiate(<br>
 &nbsp&nbsp{<br>
