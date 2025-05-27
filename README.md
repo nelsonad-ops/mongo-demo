@@ -1,10 +1,10 @@
-# px-mongo-demo
+# mongo-demo
 *Setup your k8s cluster for testing*<br>
 git clone https://github.com/andrewh1978/px-deploy.git<br>
 px-deploy create -n mongodemo -t px<br>
 <br>
 *Prep your local environment. The following instructions are for CentOS/RHEL-based environments*<br>
-git clone https://github.com/nelsonad-ops/px-mongo-demo.git<br>
+git clone https://github.com/nelsonad-ops/mongo-demo.git<br>
 yum install python3 -y<br>
 yum install python3-pip -y<br>
 vi /etc/yum.repos.d/mongodb-org-6.0.repo<br>
