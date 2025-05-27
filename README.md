@@ -23,7 +23,7 @@ Your local ip address or hostname and whether it is available via nodeport/loadb
 Number of test data records to generate in mongodb.py<br>
 <br>
 *Prep your k8s environment*<br>
-cd px-mongo-demo<br>
+cd mongo-demo<br>
 kubectl create ns mongo<br>
 kubectl apply -f k8s-setup/ -n mongo<br>
 <br>
